@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Alex Tour Guide</string>
+    <string name="test">test</string>
+    <string name="category_places">Places</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_Hotels">Hotels</string>
+    <string name="CitadelofQaitbay">Citadel of Qaitbay</string>
+    <string name="LibraryOfAlexandria">Library Of Alexandria</string>
+    <string name="MontazaPalace">Montaza Palace</string>
+    <string name="PompeysPillar">Pompey\'s Pillar</string>
+    <string name="UnknownSoldier">Unknown Soldier</string>
+</resources>
