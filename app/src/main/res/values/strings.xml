@@ -9,4 +9,14 @@
     <string name="MontazaPalace">Montaza Palace</string>
     <string name="PompeysPillar">Pompey\'s Pillar</string>
     <string name="UnknownSoldier">Unknown Soldier</string>
+    <string name="galagolaseafood">Galagola Sea Food</string>
+    <string name="kfc">KFC</string>
+    <string name="pizza_hut">Pizza Hut</string>
+    <string name="Ole_cafe">Ole cafe</string>
+    <string name="pablo_cafe_restaurant">Pablo</string>
+    <string name="tolip">Tolip</string>
+    <string name="hilton">Hilton</string>
+    <string name="four_seasons">Four Seasons</string>
+    <string name="helnan">Helnan</string>
+    <string name="romance">Romance</string>
 </resources>

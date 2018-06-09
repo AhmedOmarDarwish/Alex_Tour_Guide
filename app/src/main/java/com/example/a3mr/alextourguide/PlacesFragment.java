@@ -20,8 +20,8 @@ public class PlacesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate( R.layout.activity_module_adapter, container, false );
-        final ArrayList <Module> module = new ArrayList <Module>();
 
+        final ArrayList <Module> module = new ArrayList <Module>();
         module.add( new Module( R.mipmap.citadel_of_qaitbay, getString( R.string.CitadelofQaitbay) ) );
         module.add( new Module( R.mipmap.library_of_alexandria, getString( R.string.LibraryOfAlexandria) ) );
         module.add( new Module( R.mipmap.montaza_palace, getString( R.string.MontazaPalace) ) );
@@ -36,4 +36,5 @@ public class PlacesFragment extends Fragment {
 
         return rootView;
     }
+
 }

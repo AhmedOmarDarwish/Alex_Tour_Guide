@@ -17,11 +17,11 @@ public class HotelsFragment extends Fragment {
         View rootView = inflater.inflate( R.layout.activity_module_adapter, container, false );
         final ArrayList<Module> module = new ArrayList <Module>();
 
-        module.add( new Module( R.drawable.img1, "Hot" ) );
-        module.add( new Module( R.drawable.img1, "Hot" ) );
-        module.add( new Module( R.drawable.img1, "Hot" ) );
-        module.add( new Module( R.drawable.img1, "Hot" ) );
-        module.add( new Module( R.drawable.img1, "Hot" ) );
+        module.add( new Module( R.mipmap.tolip_logo, getString( R.string.tolip) ) );
+        module.add( new Module( R.mipmap.hilton_logo, getString( R.string.hilton) ) );
+        module.add( new Module( R.mipmap.four_seasons_logo, getString( R.string.four_seasons) ) );
+       module.add( new Module( R.mipmap.helnan_logo, getString( R.string.helnan) ) );
+        module.add( new Module( R.mipmap.romance_logo, getString( R.string.romance) ) );
 
         ModuleAdapter adapter = new ModuleAdapter( getActivity(), module );
 

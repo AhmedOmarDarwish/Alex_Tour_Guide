@@ -18,11 +18,11 @@ public class RestaurantsFragment extends Fragment {
         View rootView = inflater.inflate( R.layout.activity_module_adapter, container, false );
         final ArrayList <Module> module = new ArrayList <Module>();
 
-        module.add( new Module( R.drawable.img1, "Res" ) );
-        module.add( new Module( R.drawable.img1, "Res" ) );
-        module.add( new Module( R.drawable.img1, "Res" ) );
-        module.add( new Module( R.drawable.img1, "Res" ) );
-        module.add( new Module( R.drawable.img1, "Res" ) );
+        module.add( new Module( R.mipmap.galagolaseafood_logo, getString( R.string.galagolaseafood) ) );
+        module.add( new Module( R.mipmap.kfc_logo, getString( R.string.kfc) ) );
+        module.add( new Module(R.mipmap.pizza_hut_logo, getString( R.string.pizza_hut) ) );
+        module.add( new Module( R.mipmap.ole_logo, getString( R.string.Ole_cafe) ) );
+        module.add( new Module( R.mipmap.pablo_logo, getString( R.string.pablo_cafe_restaurant) ) );
 
         ModuleAdapter adapter = new ModuleAdapter( getActivity(), module );
 

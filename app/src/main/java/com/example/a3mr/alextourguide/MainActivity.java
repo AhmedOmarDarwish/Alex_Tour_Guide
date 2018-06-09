@@ -44,6 +44,12 @@ public class MainActivity extends AppCompatActivity {
                         slider.setCurrentItem(4);
                     } else if(slider.getCurrentItem()==4){
                         slider.setCurrentItem(5);
+                    } else if(slider.getCurrentItem()==5){
+                        slider.setCurrentItem(6);
+                    } else if(slider.getCurrentItem()==6){
+                        slider.setCurrentItem(7);
+                    } else if(slider.getCurrentItem()==7){
+                        slider.setCurrentItem(8);
                     }else {
                         slider.setCurrentItem(0);
                     }
