@@ -12,7 +12,7 @@ import android.widget.ImageView;
 public class ViewPagerAdapter extends PagerAdapter {
     private Context context;
     private LayoutInflater layoutInflater;
-    private Integer[] images = {R.drawable.img1, R.drawable.img2, R.drawable.img3, R.drawable.img4, R.drawable.img5, R.drawable.img6,R.mipmap.galagolaseafood_logo,R.mipmap.kfc_logo,R.mipmap.pizza_hut_logo};
+    private Integer[] images = {R.mipmap.citadel_of_qaitbay,R.mipmap.montaza_palace,R.mipmap.stanley_bridge,R.mipmap.galagolaseafood_logo,R.mipmap.kfc_logo,R.mipmap.pizza_hut_logo,R.mipmap.tolip,R.mipmap.hilton,R.mipmap.fourseasons};
 
     public ViewPagerAdapter(Context context) {
         this.context = context;

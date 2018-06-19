@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Alex Tour Guide</string>
     <string name="test">test</string>
     <string name="category_places">Places</string>
@@ -19,4 +19,40 @@
     <string name="four_seasons">Four Seasons</string>
     <string name="helnan">Helnan</string>
     <string name="romance">Romance</string>
+    <string name="about">About</string>
+    <string name="about_test">You want to see places out of the boring tourist brochures, feel domestic life and pure emotion of living? To meet new people, have fun, learn something new and original? Make most of every single trip you made across the globe using our TourGuide app. TourGuide is an mobile application where tourists can find local people willing to help them discover the most interesting parts of their world.</string>
+    <string name="location">Location</string>
+
+    <string name="qaitbay_address">Citadel of Qaitbay,Alexandria,Egypt</string>
+    <string name="library_address">Library of Alexandria,Egypt</string>
+    <string name="montaza_address">Montaza,Alexandria,Egypt</string>
+    <string name="pompeys_address">Pompeys Pillar,Alexandria,Egypt</string>
+    <string name="unknown_soldier_address">Unknown Soldier,Alexandria,Egypt</string>
+    <string name="qaitbay_about">The Citadel of Qaitbay (or the Fort of Qaitbay) is a 15th-century defensive fortress located on the Mediterranean sea coast, in Alexandria, Egypt. It was established in 1477 AD (882 AH) by Sultan Al-Ashraf Sayf al-Din Qa\'it Bay. The Citadel is situated on the eastern side of the northern tip of Pharos Island at the mouth of the Eastern Harbour.</string>
+    <string name="montaza_about">The extensive Montaza Palace grounds first had the Salamlek Palace, built in 1892 by Khedive Abbas II, the last Muhammad Ali Dynastyruler to hold the Khedive title over the Khedivate of Egypt and Sudan. It was used as a hunting lodge and residence for his companion. The larger Al-Haramlik Palace and royal gardens were added to the Montaza Palace grounds, being built by King Fuad I in 1932, as a summer palace. It is in a mixture of Ottoman and Florentine styles, with two towers. One of these towers rises distinctively high above with elaborated Italian Renaissance design details. The palace has long open arcades facing the sea along each floor. President Anwar El-Sadat renovated the original Salamlek Palace as an official presidential residence. It was most recently used by former president Hosni Mubarak.</string>
+    <string name="library_about">The library was created by Ptolemy I Soter, who was a Macedonian general and the successor of Alexander the Great. Most of the books were kept as papyrus scrolls. It is unknown precisely how many such scrolls were housed at any given time, but estimates range from 40,000 to 400,000 at its height.</string>
+    <string name="pompeys_about">Pompey\'s Pillar is a Roman triumphal column in Alexandria, Egypt, the largest of its type constructed outside the imperial capitals of Rome and Constantinople, located at the Serapeum of Alexandria. The only known free-standing column in Roman Egypt which was not composed of drums, it is one of the largest ancient monoliths and one of the largest monolithic columns ever erected.</string>
+    <string name="unknown_soldier_about">The Alexandria Naval Unknown Soldier Memorial at the Manshaya district is dedicated to the unknown soldiers who lost their lives in the sea battles, it is present on the Corniche of Alexandria.[1] It was built under the rule of Muhammed Ali of Egypt as Alexandria was the main naval base for his son Ibrahim Pasha\'s expedition to Greece during the Greek War of Independence, that culminated in the Battle of Navarino.</string>
+
+    <string name="galagola_address">11 شارع جمال عبد الناصر - فيكتوريا</string>
+    <string name="galagola_about">delivering the finest tast by the hands of our talented chefs using high quality ingredients to be available for everyone with reasonable price. in Galagola takeaway restaurant you can try the adventure of the taste of various coastal cities in your place, each city with its own ingredients, sauce and taste.you can create your own sandwich of the mix of any two sea food kinds ( shrimp, sepia, crab, octopus, fish) with any taste you wish( Alexandrian, Mexican,.....)</string>
+    <string name="kfc_address">KFC, طريق الجيش، سان ستفانو، قسم الرمل</string>
+    <string name="kfc_about">Kentucky Fried Chicken, pioneered by Colonel Harland Sanders, has grown to become one of the largest quick service food service systems in the world - with currently more than a billion \"finger lickin\' good\" Kentucky Fried Chicken dinners served annually in more than 100 countries and territories. But success didn\'t come easily.</string>
+    <string name="pizza_hut_address">Pizza Hut,Alexandria,Egypt</string>
+    <string name="pizza_hut_about">The Pizza Hut story begins in May 1958. Dan and Frank Carney opened their 550-squarefoot pizza restaurant in Wichita, Kansas. Dan and Frank, with friends Richard Beemer and John Bender, made the pizza themselves. Frank rolled the dough with a rolling pin. Richard tossed the dough in the air from the pie tin. Dan filled the unbaked crust with sauce. John flipped the pie from the tin during the baking process. Dan Carney recalled, \"The people were enchanted with the product, watching us tossing the dough over our heads. They were really enjoying themselves….</string>
+    <string name="ole_cafe_address">Ole Cafe,Alexandria,Egypt</string>
+    <string name="ole_cafe_about"><![CDATA[Restaurant & Coffee Shop]]></string>
+    <string name="pablo_cafe_address">Pablo Cafe Restaurant,Alexandria,Egypt</string>
+    <string name="pablo_cafe_about">Egyptian Restaurant</string>
+
+    <string name="tolip_address">Tolip Hotel,Alexandria,Egypt</string>
+    <string name="tolip_about">Tolip Hotel Alexandria is a 5 stars Hotel, it is a new sensation in heart of Alexandria started to bloom, designed, with excellence to meet your high expectations.   \"Tolip is the evidence for luxurious of Egypt and the proof how we can offer, welfare and prosperity of hospitality is what is our ultimate goal, our passion is to provide you the service that will exceed your expectations.</string>
+    <string name="romance_address">Romance Hotel,Alexandria,Egypt</string>
+    <string name="romance_about">Perfect for leisure or business, the Romance Alexandria Corniche Hotel overlooks the Mediterranean. Close to the city centre, in one of Alexandria\'s most elegant areas, the hotel is an ideal point of departure for exploring the ancient city founded by Alexander the Great. Stroll along the Corniche, visit the Greco-Roman Museum, explore the Mosque and the Citadel of Qaitbay in the Anfouchi quarter, and see the ruins of the fabled Lighthouse, once considered one of the Seven Wonders of the World.</string>
+    <string name="helnan_address">Helnan Hotel,Alexandria,Egypt</string>
+    <string name="helnan_about">“Helnan” the Scandinavian international hotel chain, with its headquarter in Denmark , was established in 1982 .It is involved in many activities that vary from owning, managing and developing five and four star hotels in different parts of the world. The group has acquired world-wide experience in upgrading first class hotels in Scandinavia, Europe, USA and the Middle East including North Africa. Helnan International operates under the slogan \"The Symbol of Scandinavian Hospitality</string>
+    <string name="fourseasons_address">Four Seasons Hotel,Alexandria,Egypt</string>
+    <string name="hilton_address">Hilton Hotel,Alexandria,Egypt</string>
+    <string name="hilton_about">Welcome to Hilton Alexandria Green Plaza Hotel  Contact us on +20 3 4209121 or social.alexandriagp@hilton.com</string>
+    <string name="fourseasons_about">At Four Seasons we believe in recognizing a familiar face, welcoming a new one and treating every one we meet the way we would want to be treated ourselves. Whether you work with us, stay with us, live with us, discover with us, we believe our purpose is to create impressions that will stay with you for a lifetime. It comes from our belief that life is richer when we truly connect to the people and the world around us.</string>
 </resources>

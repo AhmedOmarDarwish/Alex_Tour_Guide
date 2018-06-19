@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".Module" />
-        <activity android:name=".ModuleAdapter"></activity>
+        <activity android:name=".ModuleAdapter" />
+        <activity android:name=".Details"
+            android:label="Details">
+
+        </activity>
     </application>
 
 </manifest>
