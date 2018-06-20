@@ -26,7 +26,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     private Context mContext;
 
 
-    public CategoryAdapter(Context context, FragmentManager fm) {
+    CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
@@ -37,8 +37,10 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return new PlacesFragment();
         } else if (position == 1) {
             return new RestaurantsFragment();
+        } else if (position == 2) {
+            return new HotelsFragment();   
         } else {
-            return new HotelsFragment();
+            return new CollectionFragment();
         }
     }
 
@@ -47,7 +49,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      */
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
     @Override
@@ -56,8 +58,11 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.category_places);
         } else if (position == 1) {
             return mContext.getString(R.string.category_restaurants);
-        } else {
+        } else if (position == 2) {
             return mContext.getString(R.string.category_Hotels);
+        }
+        else {
+            return mContext.getString( R.string.collection);
         }
     }
 }

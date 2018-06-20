@@ -10,12 +10,9 @@ public class Module implements Parcelable {
     private int place_image;
     private String address;
     private String about;
-    public Module(int pimg, String ptitle) {
-        img = pimg;
-        title = ptitle;}
 
 
-    public Module(int pimg, String ptitle, int place_img, String paddress, String pabout) {
+    Module(int pimg, String ptitle, int place_img, String paddress, String pabout) {
         img = pimg;
         title = ptitle;
         place_image = place_img;
@@ -24,7 +21,7 @@ public class Module implements Parcelable {
 
     }
 
-    protected Module(Parcel in) {
+    private Module(Parcel in) {
         img = in.readInt();
         title = in.readString();
         place_image = in.readInt();

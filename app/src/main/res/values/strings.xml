@@ -1,19 +1,23 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Alex Tour Guide</string>
+<resources>
+    <string name="app_name">Alex TourGuide</string>
     <string name="test">test</string>
     <string name="category_places">Places</string>
     <string name="category_restaurants">Restaurants</string>
     <string name="category_Hotels">Hotels</string>
+    <string name="collection">Collection</string>
+    <!-- Places -->
     <string name="CitadelofQaitbay">Citadel of Qaitbay</string>
     <string name="LibraryOfAlexandria">Library Of Alexandria</string>
     <string name="MontazaPalace">Montaza Palace</string>
     <string name="PompeysPillar">Pompey\'s Pillar</string>
     <string name="UnknownSoldier">Unknown Soldier</string>
+    <!-- Restaurants -->
     <string name="galagolaseafood">Galagola Sea Food</string>
     <string name="kfc">KFC</string>
     <string name="pizza_hut">Pizza Hut</string>
     <string name="Ole_cafe">Ole cafe</string>
     <string name="pablo_cafe_restaurant">Pablo</string>
+    <!-- Hotels -->
     <string name="tolip">Tolip</string>
     <string name="hilton">Hilton</string>
     <string name="four_seasons">Four Seasons</string>
@@ -22,7 +26,7 @@
     <string name="about">About</string>
     <string name="about_test">You want to see places out of the boring tourist brochures, feel domestic life and pure emotion of living? To meet new people, have fun, learn something new and original? Make most of every single trip you made across the globe using our TourGuide app. TourGuide is an mobile application where tourists can find local people willing to help them discover the most interesting parts of their world.</string>
     <string name="location">Location</string>
-
+    <!-- Places -->
     <string name="qaitbay_address">Citadel of Qaitbay,Alexandria,Egypt</string>
     <string name="library_address">Library of Alexandria,Egypt</string>
     <string name="montaza_address">Montaza,Alexandria,Egypt</string>
@@ -33,9 +37,9 @@
     <string name="library_about">The library was created by Ptolemy I Soter, who was a Macedonian general and the successor of Alexander the Great. Most of the books were kept as papyrus scrolls. It is unknown precisely how many such scrolls were housed at any given time, but estimates range from 40,000 to 400,000 at its height.</string>
     <string name="pompeys_about">Pompey\'s Pillar is a Roman triumphal column in Alexandria, Egypt, the largest of its type constructed outside the imperial capitals of Rome and Constantinople, located at the Serapeum of Alexandria. The only known free-standing column in Roman Egypt which was not composed of drums, it is one of the largest ancient monoliths and one of the largest monolithic columns ever erected.</string>
     <string name="unknown_soldier_about">The Alexandria Naval Unknown Soldier Memorial at the Manshaya district is dedicated to the unknown soldiers who lost their lives in the sea battles, it is present on the Corniche of Alexandria.[1] It was built under the rule of Muhammed Ali of Egypt as Alexandria was the main naval base for his son Ibrahim Pasha\'s expedition to Greece during the Greek War of Independence, that culminated in the Battle of Navarino.</string>
-
+    <!-- Restaurants -->
     <string name="galagola_address">11 شارع جمال عبد الناصر - فيكتوريا</string>
-    <string name="galagola_about">delivering the finest tast by the hands of our talented chefs using high quality ingredients to be available for everyone with reasonable price. in Galagola takeaway restaurant you can try the adventure of the taste of various coastal cities in your place, each city with its own ingredients, sauce and taste.you can create your own sandwich of the mix of any two sea food kinds ( shrimp, sepia, crab, octopus, fish) with any taste you wish( Alexandrian, Mexican,.....)</string>
+    <string name="galagola_about">delivering the finest taste by the hands of our talented chefs using high quality ingredients to be available for everyone with reasonable price. in Galagola takeaway restaurant you can try the adventure of the taste of various coastal cities in your place, each city with its own ingredients, sauce and taste.you can create your own sandwich of the mix of any two sea food kinds ( shrimp, sepia, crab, octopus, fish) with any taste you wish( Alexandrian, Mexican,.....)</string>
     <string name="kfc_address">KFC, طريق الجيش، سان ستفانو، قسم الرمل</string>
     <string name="kfc_about">Kentucky Fried Chicken, pioneered by Colonel Harland Sanders, has grown to become one of the largest quick service food service systems in the world - with currently more than a billion \"finger lickin\' good\" Kentucky Fried Chicken dinners served annually in more than 100 countries and territories. But success didn\'t come easily.</string>
     <string name="pizza_hut_address">Pizza Hut,Alexandria,Egypt</string>
@@ -44,7 +48,7 @@
     <string name="ole_cafe_about"><![CDATA[Restaurant & Coffee Shop]]></string>
     <string name="pablo_cafe_address">Pablo Cafe Restaurant,Alexandria,Egypt</string>
     <string name="pablo_cafe_about">Egyptian Restaurant</string>
-
+    <!-- Hotels -->
     <string name="tolip_address">Tolip Hotel,Alexandria,Egypt</string>
     <string name="tolip_about">Tolip Hotel Alexandria is a 5 stars Hotel, it is a new sensation in heart of Alexandria started to bloom, designed, with excellence to meet your high expectations.   \"Tolip is the evidence for luxurious of Egypt and the proof how we can offer, welfare and prosperity of hospitality is what is our ultimate goal, our passion is to provide you the service that will exceed your expectations.</string>
     <string name="romance_address">Romance Hotel,Alexandria,Egypt</string>
@@ -55,4 +59,5 @@
     <string name="hilton_address">Hilton Hotel,Alexandria,Egypt</string>
     <string name="hilton_about">Welcome to Hilton Alexandria Green Plaza Hotel  Contact us on +20 3 4209121 or social.alexandriagp@hilton.com</string>
     <string name="fourseasons_about">At Four Seasons we believe in recognizing a familiar face, welcoming a new one and treating every one we meet the way we would want to be treated ourselves. Whether you work with us, stay with us, live with us, discover with us, we believe our purpose is to create impressions that will stay with you for a lifetime. It comes from our belief that life is richer when we truly connect to the people and the world around us.</string>
+
 </resources>
