@@ -27,11 +27,11 @@ public class PlacesFragment extends Fragment {
         View rootView = inflater.inflate( R.layout.activity_module_adapter, container, false );
 
         final ArrayList <Module> module = new ArrayList <>();
-        module.add( new Module( R.mipmap.citadel_of_qaitbay, getString( R.string.CitadelofQaitbay ),R.mipmap.citadel_of_qaitbay,getString( R.string.qaitbay_address),getString( R.string.qaitbay_about) ) );
-        module.add( new Module( R.mipmap.library_of_alexandria, getString( R.string.LibraryOfAlexandria ),R.mipmap.library_of_alexandria,getString( R.string.library_address),getString( R.string.library_about) ) );
-        module.add( new Module( R.mipmap.montaza_palace, getString( R.string.MontazaPalace ),R.mipmap.montaza_palace,getString( R.string.montaza_address),getString( R.string.montaza_about)  ) );
-        module.add( new Module( R.mipmap.pompeys_pillar, getString( R.string.PompeysPillar ),R.mipmap.pompeys_pillar,getString( R.string.pompeys_address),getString( R.string.pompeys_about) ) );
-        module.add( new Module( R.mipmap.unknown_soldier, getString( R.string.UnknownSoldier ),R.mipmap.unknown_soldier,getString( R.string.unknown_soldier_address),getString( R.string.unknown_soldier_about) ) );
+        module.add( new Module( R.drawable.citadel_of_qaitbay, getString( R.string.CitadelofQaitbay ),R.drawable.citadel_of_qaitbay,getString( R.string.qaitbay_address),getString( R.string.qaitbay_about) ) );
+        module.add( new Module( R.drawable.library_of_alexandria, getString( R.string.LibraryOfAlexandria ),R.drawable.library_of_alexandria,getString( R.string.library_address),getString( R.string.library_about) ) );
+        module.add( new Module( R.drawable.montaza_palace, getString( R.string.MontazaPalace ),R.drawable.montaza_palace,getString( R.string.montaza_address),getString( R.string.montaza_about)  ) );
+        module.add( new Module( R.drawable.pompeys_pillar, getString( R.string.PompeysPillar ),R.drawable.pompeys_pillar,getString( R.string.pompeys_address),getString( R.string.pompeys_about) ) );
+        module.add( new Module( R.drawable.unknown_soldier, getString( R.string.UnknownSoldier ),R.drawable.unknown_soldier,getString( R.string.unknown_soldier_address),getString( R.string.unknown_soldier_about) ) );
 
         ModuleAdapter adapter = new ModuleAdapter( getActivity(), module );
 

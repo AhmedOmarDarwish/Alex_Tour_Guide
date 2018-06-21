@@ -7,6 +7,5 @@ android:layout_height="match_parent">
     android:id="@+id/images"
     android:layout_width="match_parent"
     android:layout_height="220dp"
-    android:scaleType="fitXY"
-    android:contentDescription="TODO" />
+    android:scaleType="fitXY" />
 </LinearLayout>

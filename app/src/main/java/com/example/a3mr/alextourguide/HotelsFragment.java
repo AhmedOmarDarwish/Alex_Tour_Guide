@@ -19,11 +19,11 @@ public class HotelsFragment extends Fragment {
         View rootView = inflater.inflate( R.layout.activity_module_adapter, container, false );
         final ArrayList<Module> module = new ArrayList <Module>();
 
-        module.add( new Module( R.mipmap.tolip_logo, getString( R.string.tolip),R.mipmap.tolip,getString( R.string.tolip_address),getString( R.string.tolip_about) ) );
-        module.add( new Module( R.mipmap.hilton_logo, getString( R.string.hilton),R.mipmap.hilton,getString( R.string.hilton_address),getString( R.string.hilton_about) ) );
-        module.add( new Module( R.mipmap.four_seasons_logo, getString( R.string.four_seasons),R.mipmap.fourseasons,getString( R.string.fourseasons_address),getString( R.string.fourseasons_about) ) );
-       module.add( new Module( R.mipmap.helnan_logo, getString( R.string.helnan),R.mipmap.helnan,getString( R.string.helnan_address),getString( R.string.helnan_about) ) );
-        module.add( new Module( R.mipmap.romance_logo, getString( R.string.romance),R.mipmap.romance,getString( R.string.romance_address),getString( R.string.romance_about) ) );
+        module.add( new Module( R.drawable.tolip_logo, getString( R.string.tolip),R.drawable.tolip,getString( R.string.tolip_address),getString( R.string.tolip_about) ) );
+        module.add( new Module( R.drawable.hilton_hotels_and_resorts_logo, getString( R.string.hilton),R.drawable.hilton,getString( R.string.hilton_address),getString( R.string.hilton_about) ) );
+        module.add( new Module( R.drawable.four_seasons_logo, getString( R.string.four_seasons),R.drawable.fourseasons,getString( R.string.fourseasons_address),getString( R.string.fourseasons_about) ) );
+       module.add( new Module( R.drawable.helnan_logo, getString( R.string.helnan),R.drawable.helnan,getString( R.string.helnan_address),getString( R.string.helnan_about) ) );
+        module.add( new Module( R.drawable.romance_logo, getString( R.string.romance),R.drawable.romance,getString( R.string.romance_address),getString( R.string.romance_about) ) );
 
         ModuleAdapter adapter = new ModuleAdapter( getActivity(), module );
 
